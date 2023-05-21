@@ -1,0 +1,129 @@
+
+#Home{
+    margin:auto
+    width: 70%;
+}
+.title{
+    text-align: center;
+    color: rgb(65, 4, 65);
+    font-size: 88px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 4px 4px 8px rgb(153, 25, 153)
+
+}
+.img1{
+    margin-left: 370px;
+    box-shadow: 4px 4px 8px #000000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    width: 80% ;
+}
+nav{
+    font-size: 32px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-top: 12px;
+   
+}
+a:hover{
+    cursor: pointer;
+    color: rebeccapurple;
+    font-size:150%;
+}
+a:active{
+    color: rgb(197, 0, 197);
+}
+.search{
+    border: solid;
+    width: 150px;
+    height: 30px;
+    margin-top: 16px;
+    border-color: rgb(153, 25, 153);
+}
+.btn-search{
+    background-color:rgb(153, 25, 153) ;
+    border: solid;
+    width: 88px;
+    height: 30px;
+    margin-top: 16px;
+    
+}
+.btn-search:hover{
+    cursor: pointer;
+    background-color:rgb(197, 0, 197) ;
+    
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h2{
+    color: rgb(197, 0, 197);
+    font-size: 40px;
+    text-decoration: line-through dotted;
+    text-decoration-thickness: 5%;
+
+}
+h4{
+    color: rgb(65, 4, 65);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+h3{color: rgb(65, 4, 65);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+h5{
+    color: rgb(65, 4, 65);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 20%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+img{
+    margin-left: 100px;
+    box-shadow: 4px 4px 8px #000000;
+}
+.img2{
+    margin-left: 20px;
+    box-shadow: 4px 4px 8px #000000;
+
+}
+iframe{
+    box-shadow: 4px 4px 8px #000000;
+    margin-left: 170px;
+    width: 50%;
+    size: 20px;
+
+}
+footer{
+    margin-top: 60px;
+}
